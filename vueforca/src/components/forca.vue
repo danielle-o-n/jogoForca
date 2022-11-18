@@ -1,0 +1,25 @@
+<template>
+  <div class="forca">
+    <img
+      :src="`https://raw.githubusercontent.com/william-costa/wdev-hangman-game-resources/master/images/hangman/${erros}.svg`"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+  name: "FForca",
+
+  data() {
+    return {};
+  },
+  props: {
+    erros: Number,
+  },
+};
+</script>
+<style>
+.forca img {
+  max-width: 50px;
+}
+</style>
